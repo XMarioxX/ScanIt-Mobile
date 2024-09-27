@@ -6,7 +6,14 @@ from django.http import HttpResponse
 def index(requet):
     return HttpResponse("<h1>Hola</h1>")
 
-def add_person(request):
+def add_calzado(request):
     records={
-        ""
+        "first_name":"Mario",
+        "last_name":"Sanchez"
     }
+    calzado_collection.insert_one(records)
+    return HttpResponse("New person is added")
+
+def get_all_calzado(request):
+    calzados=calzado_collection.find()
+    return HttpResponse(calzados)
