@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     # 'corsheaders',
-    'ZapateriaApp.apps.ZapateriaappConfig'
+    'ZapateriaApp.apps.ZapateriaappConfig',
 ]
 
 # CORS_ORIGIN_ALLOW_ALL=True
