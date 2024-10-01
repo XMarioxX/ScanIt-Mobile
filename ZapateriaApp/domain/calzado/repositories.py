@@ -1,7 +1,6 @@
 from typing import List, Optional
 from datetime import datetime
 from bson import ObjectId
-from pymongo import MongoClient
 from ZapateriaApp.domain.calzado.models import Calzado
 from ZapateriaApp.domain.calzado.repositories import CalzadoRepository
 
