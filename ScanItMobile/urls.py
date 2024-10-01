@@ -6,5 +6,6 @@ urlpatterns = [
     path('zapateria/', include('ZapateriaApp.presentation.calzado.urls')), 
     path('zapateria/', include('ZapateriaApp.presentation.proveedor.urls')),
     path('zapateria/', include('ZapateriaApp.presentation.inversionista.urls')),
-    path('zapateria/', include('ZapateriaApp.presentation.usuario.urls'))
+    path('zapateria/', include('ZapateriaApp.presentation.usuario.urls')),
+    path('zapateria/', include('ZapateriaApp.presentation.clienteApartado.urls'))
 ]
